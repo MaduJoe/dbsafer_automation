@@ -1,0 +1,183 @@
+2024_1006_20:53:34 - An error occurred: Traceback (most recent call last):
+  File "c:/workspace/python/auto_gui/logging_handler.py", line 16, in main
+    x = 1 / 0  # ZeroDivisionError ����
+ZeroDivisionError: division by zero
+
+2024-10-06_20:53:59 - An error occurred: Traceback (most recent call last):
+  File "c:/workspace/python/auto_gui/logging_handler.py", line 16, in main
+    x = 1 / 0  # ZeroDivisionError ����
+ZeroDivisionError: division by zero
+
+2024-10-06 20:54:25 - An error occurred: Traceback (most recent call last):
+  File "c:/workspace/python/auto_gui/logging_handler.py", line 16, in main
+    x = 1 / 0  # ZeroDivisionError ����
+ZeroDivisionError: division by zero
+
+2024-10-06 20:54:46 - An error occurred: Traceback (most recent call last):
+  File "c:/workspace/python/auto_gui/logging_handler.py", line 17, in main
+    x = 1 / 0  # ZeroDivisionError ����
+ZeroDivisionError: division by zero
+
+2024-10-06 20:54:52 - An error occurred: Traceback (most recent call last):
+  File "c:/workspace/python/auto_gui/logging_handler.py", line 17, in main
+    x = 1 / 0  # ZeroDivisionError ����
+ZeroDivisionError: division by zero
+
+2024_1006_20:56:59 - An error occurred: Traceback (most recent call last):
+  File "c:/workspace/python/auto_gui/logging_handler.py", line 21, in main
+    x = 1 / 0  # ZeroDivisionError 예시
+ZeroDivisionError: division by zero
+
+2024_1006_20:57:31 - An error occurred: Traceback (most recent call last):
+  File "c:/workspace/python/auto_gui/logging_handler.py", line 21, in main
+    x = 1 / 0  # ZeroDivisionError 예시
+ZeroDivisionError: division by zero
+
+2024_1006_20:57:31 - An error occurred: division by zero
+2024_1007_16:47:02 - An error occurred: Traceback (most recent call last):
+  File "c:\workspace\python\auto_gui\database.py", line 38, in execute_query
+    cursor.execute(query)
+  File "c:\workspace\python\auto_gui\gui_env\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "c:\workspace\python\auto_gui\gui_env\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "c:\workspace\python\auto_gui\gui_env\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "c:\workspace\python\auto_gui\gui_env\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "c:\workspace\python\auto_gui\gui_env\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "c:\workspace\python\auto_gui\gui_env\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "c:\workspace\python\auto_gui\gui_env\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "c:\workspace\python\auto_gui\gui_env\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1146, "Table 'dbsafer3.policy_shelll_access' doesn't exist")
+
+2024_1007_16:47:02 - An error occurred: Traceback (most recent call last):
+  File "c:\workspace\python\auto_gui\database.py", line 38, in execute_query
+    cursor.execute(query)
+  File "c:\workspace\python\auto_gui\gui_env\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "c:\workspace\python\auto_gui\gui_env\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "c:\workspace\python\auto_gui\gui_env\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "c:\workspace\python\auto_gui\gui_env\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "c:\workspace\python\auto_gui\gui_env\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "c:\workspace\python\auto_gui\gui_env\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "c:\workspace\python\auto_gui\gui_env\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "c:\workspace\python\auto_gui\gui_env\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1146, "Table 'dbsafer3.policy_shelll_access' doesn't exist")
+
+2024_1007_16:47:02 - An error occurred: Traceback (most recent call last):
+  File "c:\workspace\python\auto_gui\database.py", line 38, in execute_query
+    cursor.execute(query)
+  File "c:\workspace\python\auto_gui\gui_env\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "c:\workspace\python\auto_gui\gui_env\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "c:\workspace\python\auto_gui\gui_env\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "c:\workspace\python\auto_gui\gui_env\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "c:\workspace\python\auto_gui\gui_env\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "c:\workspace\python\auto_gui\gui_env\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "c:\workspace\python\auto_gui\gui_env\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "c:\workspace\python\auto_gui\gui_env\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1146, "Table 'dbsafer3.policy_shelll_access' doesn't exist")
+
+2024_1007_16:53:33 - An error occurred: Traceback (most recent call last):
+  File "c:\workspace\python\auto_gui\database.py", line 38, in execute_query
+    cursor.execute(query)
+  File "c:\workspace\python\auto_gui\gui_env\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "c:\workspace\python\auto_gui\gui_env\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "c:\workspace\python\auto_gui\gui_env\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "c:\workspace\python\auto_gui\gui_env\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "c:\workspace\python\auto_gui\gui_env\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "c:\workspace\python\auto_gui\gui_env\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "c:\workspace\python\auto_gui\gui_env\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "c:\workspace\python\auto_gui\gui_env\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1146, "Table 'dbsafer3.policy_shelll_access' doesn't exist")
+
+2024_1007_16:53:33 - An error occurred: Traceback (most recent call last):
+  File "c:\workspace\python\auto_gui\database.py", line 38, in execute_query
+    cursor.execute(query)
+  File "c:\workspace\python\auto_gui\gui_env\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "c:\workspace\python\auto_gui\gui_env\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "c:\workspace\python\auto_gui\gui_env\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "c:\workspace\python\auto_gui\gui_env\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "c:\workspace\python\auto_gui\gui_env\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "c:\workspace\python\auto_gui\gui_env\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "c:\workspace\python\auto_gui\gui_env\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "c:\workspace\python\auto_gui\gui_env\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1146, "Table 'dbsafer3.policy_shelll_access' doesn't exist")
+
+2024_1007_16:53:33 - An error occurred: Traceback (most recent call last):
+  File "c:\workspace\python\auto_gui\database.py", line 38, in execute_query
+    cursor.execute(query)
+  File "c:\workspace\python\auto_gui\gui_env\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "c:\workspace\python\auto_gui\gui_env\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "c:\workspace\python\auto_gui\gui_env\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "c:\workspace\python\auto_gui\gui_env\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "c:\workspace\python\auto_gui\gui_env\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "c:\workspace\python\auto_gui\gui_env\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "c:\workspace\python\auto_gui\gui_env\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "c:\workspace\python\auto_gui\gui_env\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1146, "Table 'dbsafer3.policy_shelll_access' doesn't exist")
+
+2024_1007_16:53:33 - An error occurred: Traceback (most recent call last):
+  File "c:\workspace\python\auto_gui\database.py", line 38, in execute_query
+    cursor.execute(query)
+  File "c:\workspace\python\auto_gui\gui_env\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "c:\workspace\python\auto_gui\gui_env\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "c:\workspace\python\auto_gui\gui_env\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "c:\workspace\python\auto_gui\gui_env\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "c:\workspace\python\auto_gui\gui_env\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "c:\workspace\python\auto_gui\gui_env\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "c:\workspace\python\auto_gui\gui_env\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "c:\workspace\python\auto_gui\gui_env\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1146, "Table 'dbsafer3.policy_shelll_access' doesn't exist")
+

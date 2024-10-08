@@ -1,0 +1,7 @@
+{
+	"files.autoSave": "off",
+	"files.watcherExclude": {"**/node_modules": true, "**/build": true},
+	"editor.minimap.enabled": false,
+	"editor.largeFileOptimizations": true,
+	"git.autofetch": false
+}

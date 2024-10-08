@@ -1,0 +1,93 @@
+tc:
+  product: Enterprise Manager
+  version:
+  - 7000
+  - 7001
+  - 7002
+  type:
+  - Regression
+  - Add
+  - Edit
+  - Delete
+  group:
+    policy:
+      dbms: [access,auth,global]
+      ftp:
+        - access
+        - auth
+      terminal:
+        - access
+        - auth
+        - rdp
+      sa:
+        - dbms
+        - ftp 
+        - terminal 
+    object:
+      host: []
+      service: [dbms, ftp, terminal, transparent]
+      instance: []
+      ip: []
+      access: []
+      application: []
+      cert: []
+      datamask: []
+      tablecolumn: []
+      formalquery: []
+      time: []
+      command: []
+      event: [security, system, application]
+      alert: []
+    monitor: [dbsafer, service, target_server, important_table]
+    log:
+      service: [dbms, dbms(contraction), ftp, terminal]
+      server_agent: [dbms, ftp, terminal]
+  precondition: [non-login, login]
+start:
+  process_name: Enterprise Manager.exe
+  user_name: admin
+  user_pw: admin007
+db_connection:
+  db_ip: 192.168.106.71
+  db_port: 3306
+  db_name: dbsafer3
+  db_user: safeusr
+  db_password: gVjRKjDczENSt9kIzHCyAMGkZQi1trVSDvb/9LQY
+db_creation:
+  db_name: automation
+  table_name: manager
+  table_field:
+  - prod_ver
+  - tc_group
+  - pre_condition
+  - macro_list
+  - val_type
+  - val_data
+  - last_updated_time
+  - created_time
+google_sheet:
+  secret_key: C:\dbsafer_automation\fair-app-433002-i2-ed950ac039bc.json
+  sheet_scope:
+  - https://www.googleapis.com/auth/drive
+  - https://spreadsheets.google.com/feeds
+  - https://www.googleapis.com/auth/spreadsheets
+  sheet_url: https://docs.google.com/spreadsheets/d/1XWiDb98wUbdF3eqzcgaoqOMhg_Ab98n9DYs8_jcAArE/edit
+  sheet_id: 1XWiDb98wUbdF3eqzcgaoqOMhg_Ab98n9DYs8_jcAArE
+  img_source_mgr5: 1ZAeBHAs_SWwMeqVM5JPHIGdTAlQyGvvj
+  img_source_mgr7: 1kzW0CC13R9iZ_jbTYH4vcbAh7FY4Ar9y
+  img_target_mgr5: C:\dbsafer_automation\images\Enterprise Manager 5
+  img_target_mgr7: C:\dbsafer_automation\images\Enterprise Manager 7
+  manager_version: 7
+log:
+  base_path: C:\dbsafer_automation
+  dir_name: 
+  - logs
+  - images
+  - jsons
+  - xlsxs
+options:
+  image_matching:
+    click_interval: 0.1
+    keyboard_press_interval: 0.1
+    match_attempts: 4
+
