@@ -82,7 +82,6 @@ DBSAFER 보안 제품 테스트를 위한 **녹화 및 재생 기반 GUI 자동�
 
 - Enterprise Manager  
 - DBSafer Agent  
-- NodeSafer Manager
 
 ---
 
